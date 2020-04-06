@@ -1,0 +1,29 @@
+.titulo{
+  background-color: cyan;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-size: bold;
+  padding: 50px;
+}
+ol {color: red;
+ text-align: justify;
+ font: arial times;
+  font-weight: bold;
+font-size: 30px;}
+li::selection {
+  color: gray;
+  background-color: lightgray;
+}
+@media (max-width: 700px)  {
+  body {
+
+    background-color: antiquewhite;}
+
+}
+@media (min-width: 701px)  {
+  body {
+
+    background-color: white;}
+
+}
